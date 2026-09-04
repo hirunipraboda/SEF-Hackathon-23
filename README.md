@@ -5,6 +5,14 @@ A modern, TRAIN-ONLY public transportation web application specifically engineer
 
 ---
 
+## 🌐 Live Deployed Application
+
+- **Frontend Application**: [https://sef-hackathon-23-1.onrender.com](https://sef-hackathon-23-1.onrender.com)
+- **Backend API Service**: [https://sef-hackathon-23.onrender.com](https://sef-hackathon-23.onrender.com)
+- **API Health Check**: [https://sef-hackathon-23.onrender.com/api/health](https://sef-hackathon-23.onrender.com/api/health)
+
+---
+
 ## Project Overview
 
 Sri Lanka Railways is one of the most vital national public transit networks, carrying hundreds of thousands of commuters, regional travelers, and tourists daily. **TrainTrack Sri Lanka** is a unified digital railway passenger platform that provides accurate schedule searching, transparent ticket fare estimation across coach classes, crowd-sourced incident and delay reporting, and passenger journey feedback.
@@ -291,9 +299,10 @@ The payment portal supports secure, simulated checkout for Sri Lanka Railways bo
 
 ## Project Links & Deployment
 
-- **GitHub Repository**: `[Link to GitHub Repository]` *(Placeholder)*
-- **Deployed Frontend (Vercel)**: `[Link to Deployed Frontend]` *(Placeholder)*
-- **Deployed Backend (Render)**: `[Link to Deployed Backend]` *(Placeholder)*
+- **GitHub Repository**: [https://github.com/hirunipraboda/SEF-Hackathon-23.git](https://github.com/hirunipraboda/SEF-Hackathon-23.git)
+- **Deployed Frontend (Render)**: [https://sef-hackathon-23-1.onrender.com](https://sef-hackathon-23-1.onrender.com)
+- **Deployed Backend (Render)**: [https://sef-hackathon-23.onrender.com](https://sef-hackathon-23.onrender.com)
+- **Backend API Health Check**: [https://sef-hackathon-23.onrender.com/api/health](https://sef-hackathon-23.onrender.com/api/health)
 - **Demonstration Video**: `[Link to Demonstration Video]` *(Placeholder)*
 
 ---
