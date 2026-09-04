@@ -9,14 +9,21 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:5173';
+const CLIENT_URL = process.env.CLIENT_URL || 'https://sef-hackathon-23-1.onrender.com';
+
+const allowedOrigins = [
+  'https://sef-hackathon-23-1.onrender.com',
+  'http://localhost:5173',
+  'http://localhost:3000',
+  CLIENT_URL,
+];
 
 // Middleware
 app.use(
   cors({
     origin: (origin, callback) => {
-      // Allow requests with no origin (e.g. mobile apps, curl, Postman) or matching CLIENT_URL
-      if (!origin || origin === CLIENT_URL || origin.startsWith('http://localhost:')) {
+      // Allow requests with no origin (e.g. mobile apps, curl, Postman) or matching allowed origins
+      if (!origin || allowedOrigins.includes(origin) || origin.startsWith('http://localhost:')) {
         callback(null, true);
       } else {
         callback(null, true); // Dev-friendly fallback
